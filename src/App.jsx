@@ -1,22 +1,21 @@
 import './App.css'
-import Atracao from './components./atracao./atracaob'
-import Navegacao from './Components/Navegacao/Navegacao'
-
+import Navegacao from './components/Navegacao/Navegacao'
+import Atracao from './components/Atracao/Atracao'
+import CardAnimal from './components/CardAnimal/CardAnimal';
 
 function App() {
   const componentes = [];
-  for (let i = 0; i <= 2; i++) {
-    componentes.push(<Atracao key={i}/>)
+  for(let i = 0; i <= 2; i++) {
+    componentes.push(<Atracao key={i} />)
   }
 
   return (
-    <>{/**nao esquecer frag <> </> */}
+    <>
       <Navegacao></Navegacao>
-    
-
-      <div className="ctn-atracoes">
+      {/* <div className="ctn-atracoes">
         {componentes}
-      </div>
+      </div> */}
+      <CardAnimal />
     </>
   )
 }
