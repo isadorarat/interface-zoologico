@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 4%;
+    font-family: "Caesar Dressing",system-ui;
 }
 
 .welcome-container {
@@ -15,11 +16,13 @@
 .welcome-container > h1 {
     color: #000;
     padding-bottom: 2%;
+    
 }
 
 .welcome-container > p {
     font-size: 22px;
     color: #000;
+
 }
 
 .welcome-image {
