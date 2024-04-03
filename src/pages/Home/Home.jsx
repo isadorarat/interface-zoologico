@@ -1,6 +1,6 @@
 import './Home.css'
 import Atracao from '../../components/Atracao/Atracao';
-import Welcome from '../../components/Welcome/Welcome'
+import Welcome from '../../components/Welcome/Welcome';
 import Navegacao from '../../components/Navegacao/Navegacao';
 
 function Home() {

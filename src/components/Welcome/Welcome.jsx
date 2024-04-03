@@ -1,5 +1,5 @@
 import './Welcome.css'
-import animaiscover from '../../assets/animais-cover.png'
+import animaiscover from '../../assets/animais-cover.png';
 
 function Welcome() {
     return (

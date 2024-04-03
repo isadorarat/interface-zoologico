@@ -1,4 +1,4 @@
-import imgNotFound from '../../assets/img-not-found.png'
+import imgNotFound from '../../assets/img-not-found.png';
 import './CardAnimal.css'
 
 function CardAnimal() {
