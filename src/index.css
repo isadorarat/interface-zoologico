@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
-@import 'bootstrap/dist/css/bootstrap.min.css';
-
+@import  'bootstrap/dist/css/bootstrap.min.css';
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -8,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #F1EFB8;
+  background-color: #f1efbb;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -31,6 +30,7 @@ body {
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
+  background-color: #f1efbb;
 }
 
 h1 {
